@@ -4,6 +4,16 @@ import java.util.Calendar;
 public class MainClass {
 
   public static void printBonusDatesBetween(int fromYear, int toYear) {
+    if (fromYear > toYear) {
+      System.out.println("Invalid input: fromYear is greater than toYear.");
+      return;
+    }
+
+    if (fromYear < 0 || toYear < 0) {
+      System.out.println("Invalid input: please input non-negative numbers.");
+      return;
+    }
+
     Calendar fromCalendar = Calendar.getInstance();
     Calendar toCalendar = Calendar.getInstance();
     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
