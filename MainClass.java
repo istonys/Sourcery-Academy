@@ -5,6 +5,7 @@ public class MainClass {
 
   public static void printBonusDatesBetween(int fromYear, int toYear) {
     Calendar fromCalendar = Calendar.getInstance();
+    Calendar toCalendar = Calendar.getInstance();
     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     fromCalendar.set(Calendar.YEAR, fromYear);
@@ -12,7 +13,6 @@ public class MainClass {
     int firstFromDay = fromCalendar.getActualMinimum(Calendar.DAY_OF_MONTH);
     fromCalendar.set(Calendar.DAY_OF_MONTH, firstFromDay);
 
-    Calendar toCalendar = Calendar.getInstance();
     toCalendar.set(Calendar.YEAR, toYear);
     toCalendar.set(Calendar.MONTH, Calendar.DECEMBER);
     int lastToDay = toCalendar.getActualMaximum(Calendar.DAY_OF_MONTH);
