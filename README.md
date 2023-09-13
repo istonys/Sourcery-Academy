@@ -15,3 +15,6 @@ Repository created for the special task.
 <img src="https://github.com/istonys/Sourcery-Academy/assets/116721418/07a1c68d-cfbd-4af4-b0fb-cf0ee909f96d"><br>
 <img src="https://github.com/istonys/Sourcery-Academy/assets/116721418/90506cd0-ad9e-48b2-a00f-aab3e047003b">
 
+<p>Example 4:</p>
+<img src="https://github.com/istonys/Sourcery-Academy/assets/116721418/1e5f2a98-26b6-49b1-acc4-1fb265d2b718"><br>
+<img src="https://github.com/istonys/Sourcery-Academy/assets/116721418/a424925c-d5f6-4005-9580-9b6b23fe3c8b">
